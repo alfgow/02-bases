@@ -8,8 +8,17 @@ export const httpClientPlugin = {
         return data
         
     },
-    post: async(url: string, data: any)=>{},
-    put: async(url: string, data: any)=>{},
-    delete: async(url: string)=>{}
+    post: async(url: string, data: any)=>{
+        throw new Error("Not Implemented");
+        
+    },
+    put: async(url: string, data: any)=>{
+        throw new Error("Not Implemented");
+        
+    },
+    delete: async(url: string)=>{
+        throw new Error("Not Implemented");
+        
+    }
 
 }
